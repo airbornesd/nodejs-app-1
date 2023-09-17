@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/public/styles.css" />
+  </head>
+  <body>
+    <main>
+      <form method="post" action="/login">
+        <h1>it's working 🚀</h1>
+        <input type="email" name="email" placeholder="Email" />
+        <input type="password" name="password" placeholder="Password" />
+        <h3 class="error"><%= locals.message %></h3>
+        <button type="submit">Send Message</button>
+      </form>
+    </main>
+  </body>
+</html>
