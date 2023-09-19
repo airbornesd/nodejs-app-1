@@ -1,9 +1,9 @@
-create user: localhost:9000/register
-login: localhost:9000/login
+- create user: localhost:9000/register
+- login: localhost:9000/login
 
-authentication: using jwt
-security: using bcrypt
+- authentication: using jwt
+- security: using bcrypt
 
-db: using mongodb
+- db: using mongodb
 
-frontend: using ejs
+- frontend: using ejs

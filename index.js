@@ -11,7 +11,7 @@ const PORT = 9000;
 // connecting database
 mongoose
   .connect(
-    "<-create using mongodb atlas, connect, paste here->",
+    "",
     {
       dbName: "backend",
     }
